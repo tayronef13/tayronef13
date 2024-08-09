@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingrid Mirelly Nails Designer</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #080808;
+            text-align: center;
+            background: url('https://wallpaperaccess.com/full/1917983.jpg') no-repeat center center fixed;
+            background-size: cover;
+            scroll-behavior: smooth;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 182, 193, 0.9);
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        .header, .footer {
+            background: rgba(255, 182, 193, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 20px 0;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #333;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 10px 0;
+            color: #333;
+        }
+        .gallery, .procedures {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            padding: 20px;
+        }
+        .gallery img, .procedures img {
+            width: 150px; /* Tamanho da imagem */
+            height: 150px; /* Tamanho da imagem */
+            object-fit: cover; /* Mantém a proporção da imagem */
+            border-radius: 15px; /* Bordas arredondadas */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery img:hover, .procedures img:hover {
+            transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+        }
+        .gallery-heading, .care-heading, .procedures-heading {
+            font-size: 2em;
+            margin: 20px 0;
+            color: #333;
+        }
+        .articles, .procedures-list {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .article, .procedure {
+            background: rgba(255, 182, 193, 0.9);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px 0;
+            text-align: left;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .article h3, .procedure h3 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .article p, .procedure p {
+            font-size: 1em;
+            margin: 10px 0;
+        }
+        .contact {
+            margin-top: 20px;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 10px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#header">Início</a>
+        <a href="#care">Cuidados</a>
+        <a href="#procedures">Procedimentos</a>
+        <a href="#gallery">Galeria</a>
+        <a href="#contact">Contato</a>
+    </nav>
+
+    <div class="header" id="header">
+        <h1>Ingrid Mirelly</h1>
+        <p>Nail's Designer</p>
+    </div>
+    
+    <div id="care">
+        <h2 class="care-heading">Cuidados com as Unhas</h2>
+        <div class="articles">
+            <div class="article">
+                <h3>Mantenha suas unhas hidratadas</h3>
+                <p>Para manter suas unhas fortes e saudáveis, é essencial hidratá-las regularmente. Use óleos ou cremes específicos para unhas e cutículas para evitar que fiquem ressecadas e quebradiças.</p>
+            </div>
+            <div class="article">
+                <h3>Evite o uso excessivo de produtos químicos</h3>
+                <p>Produtos como acetona e esmaltes podem enfraquecer suas unhas com o tempo. Tente optar por removedores sem acetona e escolha esmaltes de qualidade que sejam menos agressivos.</p>
+            </div>
+            <div class="article">
+                <h3>Faça pausas entre as aplicações de esmalte</h3>
+                <p>Deixe suas unhas respirarem entre as aplicações de esmalte. Dê um intervalo para que elas possam se recuperar e evitar o enfraquecimento causado pelo uso contínuo de esmaltes.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="procedures">
+        <h2 class="procedures-heading">Procedimentos e Valores</h2>
+        <div class="procedures-list">
+            <div class="procedure">
+                <h3>Manicure Completa</h3>
+                <p>Cuidados com as unhas, aplicação de esmalte, e hidratação das cutículas.</p>
+                <p><strong>Valor: R$ 50,00</strong></p>
+            </div>
+            <div class="procedure">
+                <h3>Pedicure Completa</h3>
+                <p>Cuidados com as unhas dos pés, aplicação de esmalte, e hidratação das cutículas.</p>
+                <p><strong>Valor: R$ 60,00</strong></p>
+            </div>
+            <div class="procedure">
+                <h3>Alongamento de Unhas</h3>
+                <p>Aplicação de alongamento com gel ou acrílico.</p>
+                <p><strong>Valor: R$ 120,00</strong></p>
+            </div>
+            <div class="procedure">
+                <h3>Design de Unhas</h3>
+                <p>Criação de designs personalizados para suas unhas.</p>
+                <p><strong>Valor: R$ 80,00</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="gallery">
+        <h2 class="gallery-heading">Meu Trabalho</h2>
+        <div class="gallery">
+            <img src="https://i.pinimg.com/originals/b4/6a/1e/b46a1ea5c46f23bc875887501fa6d4e3.jpg" alt="Unhas 1">
+            <img src="https://naildesigncode.com/wp-content/uploads/2016/08/teal-nail-designs-11.jpg" alt="Unhas 2">
+            <img src="https://theglossychic.com/wp-content/uploads/2020/05/FF8A4D06-5CC7-42D7-AECC-EE3A2953C371.jpeg" alt="Unhas 3">
+            <img src="https://i.pinimg.com/originals/68/01/eb/6801ebb9333321fc09f1de984025d028.jpg" alt="Unhas 4">
+            <img src="https://images.designtrends.com/wp-content/uploads/2016/03/01125542/Long-Attractive-Nail-Design.jpg" alt="Unhas 5">
+            <img src="https://images.designtrends.com/wp-content/uploads/2016/03/29093223/Beautiful-Floral-Nail-Design.jpg" alt="Unhas 6">
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <div class="social-links">
+            <a href="https://www.instagram.com/ingridmirellynails" target="_blank">Instagram</a>
+            <a href="https://wa.me/5583988355858?text=" target="_blank">Whatapp</a>
+            <!-- Adicione mais links para redes sociais conforme necessário -->
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Ingrid Mirelly Nails Designer. Todos os direitos reservados.</p>
+    </div>
+</body>
+</html>
